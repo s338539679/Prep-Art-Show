@@ -11,8 +11,8 @@ function setup() {
     ladders[i] = new generalMover(350, 350, -1, "ellipse");
     //3rd parameter tells program: this.x and this.y = random(-5,4)
     
-    // if you want to see some bugs, comment line 41 and uncomment the below line instead
-    // squaresUpward[i] = new generalMover(350, 350, -1, "elipse");
+    // if you want to see some bugs, comment line 11 and uncomment the below line instead
+    // ladders[i] = new generalMover(350, 350, -1, "elipse");
   }
 }
 
